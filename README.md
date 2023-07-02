@@ -3,7 +3,6 @@ Selenium WebDriver is a popular web-based automation testing framework that is p
 Selenium WebDriver is the main component that communicates with the web browser.
 
 Google Chrome:
-
       from webdriver_manager.chrome import ChromeDriverManager
       from selenium import webdriver
       driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
